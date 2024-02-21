@@ -1,0 +1,5 @@
+# Ignore root level node_modules directory
+/backend/node_modules
+
+# Ignore node_modules directory inside aru-project
+/frontend/node_modules
