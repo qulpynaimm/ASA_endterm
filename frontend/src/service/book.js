@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BOOK_URL = '/api/v1/books';
+const BOOK_URL = 'http://localhost:3001/api/v1/books';
 
 export const getBook = async () => {
     return await axios.get(BOOK_URL);
